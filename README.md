@@ -1,6 +1,10 @@
 # RecyclerView-Java
 RecyclerVIew Java
 
+
+Priview
+![ezgif com-resize (1)](https://user-images.githubusercontent.com/43386555/83186767-3a444200-a157-11ea-9243-db44dd9680f6.gif)
+
 1 add recyclerview in xml
 
     <?xml version="1.0" encoding="utf-8"?>
