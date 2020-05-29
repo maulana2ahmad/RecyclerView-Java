@@ -78,6 +78,17 @@ Priview
         
 3. create class Adapter
 
+
+      # Adapter
+> Adapter dipanggil RecyclerView untuk membuat item baru dalam bentuk ViewHolder,adapter jugak mengumpulkan atau menggabungkan item dengan data dan return informasi mengenai tentang data seperti banyaknya item di dalam source data, Adapter meminta kita untuk meng override tida method yaitu:
+
+>**onCreateViewHolder** yang dipanggil ketika RecyclerView menginstanisasi intance ViewHolder
+ 
+>**onBindViewHolder** method ini dipanggil ketika RecyclerView ingin mengisi view dengan data
+
+>**getItemCount** yang return jumlah dari item ke dalam data source
+
+
           public class ContactRecyclerViewAdapter
     
 4. extend RecyclerView.Adapter
