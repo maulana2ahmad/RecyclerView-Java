@@ -139,6 +139,15 @@ Priview
 11. add getter and setter
 12. add toString()
 
+            @Override
+            public String toString() {
+                return "Contact{" +
+                        "name='" + name + '\'' +
+                        ", email='" + email + '\'' +
+                        ", imageUrl='" + imageUrl + '\'' +
+                        '}';
+            }
+
 13. add variable Array
 
             private ArrayList<Contact> contacts = new ArrayList<>();
